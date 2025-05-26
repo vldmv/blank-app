@@ -1,9 +1,4 @@
 import streamlit as st
 
-st.title("🎈 안녕하세요")
-st.write(
-    "저는 김정운입니다."
-)
-
-
-
+age = st.slider("김정운", min_value=10, max_value=80, value=30, step=5)
+st.write("선택한 나이:", age)
